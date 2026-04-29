@@ -46,7 +46,10 @@ export function runCommand(args: any) {
             if (!rest[0]) {
                 errors.add(ERRORS.COMMAND_NOT_FOUND);
             }
-            vscode.commands.executeCommand(command, vscode.Uri.file(rest[0]));
+            const folderUri = typeof rest[0] === 'string' && (rest[0] as string).includes('://')
+                ? vscode.Uri.parse(rest[0] as string)
+                : vscode.Uri.file(rest[0] as string);
+            vscode.commands.executeCommand(command, folderUri, rest[1]);
             break;
         case 'vscode.open':
             if (!rest[0]) {
