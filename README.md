@@ -1,7 +1,12 @@
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/sabitovvt.favorites-panel)](https://marketplace.visualstudio.com/items?itemName=sabitovvt.favorites-panel) [![Installs](https://img.shields.io/visual-studio-marketplace/i/sabitovvt.favorites-panel)](https://marketplace.visualstudio.com/items?itemName=sabitovvt.favorites-panel) [![Rating](https://img.shields.io/visual-studio-marketplace/r/sabitovvt.favorites-panel)](https://marketplace.visualstudio.com/items?itemName=sabitovvt.favorites-panel) [![OpenVSX Downloads](https://shields.io/open-vsx/dt/sabitovvt/favorites-panel?label=OpenVSX%20installs)](https://open-vsx.org/extension/sabitovvt/favorites-panel) [![Stars](https://img.shields.io/github/stars/sabitovvt/vscode-favorites-panel?logo=github)](https://github.com/sabitovvt/vscode-favorites-panel) [![Forks](https://img.shields.io/github/forks/sabitovvt/vscode-favorites-panel?logo=github)](https://github.com/sabitovvt/vscode-favorites-panel)
+# Favorites Panel — fork by studioIngrid
 
-# Favorites Panel
+> **Fork** van [sabitovvt/vscode-favorites-panel](https://github.com/sabitovvt/vscode-favorites-panel) door [Sabitov Vladimir](https://github.com/sabitovvt).
+> Alle credits voor het originele werk gaan naar de originele auteur.
+>
+> **Wijziging in deze fork:** `vscode.openFolder` ondersteunt nu `vscode-remote://` URIs (SSH, WSL), zodat remote workspaces direct geopend kunnen worden vanuit het favourites panel.
+
+[![Original](https://img.shields.io/visual-studio-marketplace/v/sabitovvt.favorites-panel?label=original)](https://marketplace.visualstudio.com/items?itemName=sabitovvt.favorites-panel) [![Fork](https://img.shields.io/github/v/release/studioIngrid/vscode-favorites-panel)](https://github.com/studioIngrid/vscode-favorites-panel/releases)
 
 The extension adds a panel for accessing frequently used commands, files, directories, URLs, programs, snippets. The panel can be standalone or as part of the Explorer (In this case, you can drag the panel like any other to the desired location).
 

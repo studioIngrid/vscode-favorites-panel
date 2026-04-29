@@ -1,9 +1,9 @@
 {
     "name": "favorites-panel",
-    "displayName": "Favorites panel",
-    "description": "Use the extension to create a panel with your favorite commands, folders, files, URLs.",
+    "displayName": "Favorites panel (studioIngrid)",
+    "description": "Fork of sabitovvt.favorites-panel. Adds vscode-remote:// URI support for SSH/WSL workspaces.",
     "version": "1.4.2",
-    "publisher": "sabitovvt",
+    "publisher": "studioIngrid",
     "engines": {
         "vscode": "^1.53.0"
     },
