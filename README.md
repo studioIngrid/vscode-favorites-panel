@@ -8,6 +8,21 @@
 
 [![Original](https://img.shields.io/visual-studio-marketplace/v/sabitovvt.favorites-panel?label=original)](https://marketplace.visualstudio.com/items?itemName=sabitovvt.favorites-panel) [![Fork](https://img.shields.io/github/v/release/studioIngrid/vscode-favorites-panel)](https://github.com/studioIngrid/vscode-favorites-panel/releases)
 
+## Installatie (deze fork)
+
+Plak dit in een terminal (CMD, PowerShell of WSL):
+
+```
+code --install-extension https://github.com/studioIngrid/vscode-favorites-panel/releases/download/v1.4.2/favorites-panel-1.4.2.vsix
+```
+
+Of download het `.vsix` bestand handmatig via de [releases pagina](https://github.com/studioIngrid/vscode-favorites-panel/releases) en installeer via:
+**Extensions** (Ctrl+Shift+X) → `···` menu rechtsboven → **Install from VSIX...**
+
+> **Let op:** als je eerder de originele `sabitovvt.favorites-panel` had, verwijder die dan eerst. Je `favoritesPanel.*` instellingen in `settings.json` blijven gewoon werken.
+
+---
+
 The extension adds a panel for accessing frequently used commands, files, directories, URLs, programs, snippets. The panel can be standalone or as part of the Explorer (In this case, you can drag the panel like any other to the desired location).
 
 ![Favorites Panel](preview/screenshot_0.png)
